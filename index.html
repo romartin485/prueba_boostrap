@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+  #indice {
+      background: lightgrey;
+  }
+  #contenido {
+    background: #eeffee; text-align: justify;
+  }
+#indice a {color: salmon}
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>Mi Documentacion SQL</h2>
+   <div class="row">
+       <div id="indice" class="col">
+           Indice
+        <ul class="list-group">
+        <li class="list-group-item"> <a href="#_dato"> Dato </a></li> 
+        <li class="list-group-item"> <a href="#_informacion"> Informacion </a></li>
+        <li class="list-group-item"> <a href="#_base_de_datos"> Base de Datos </a></li>
+        <li class="list-group-item"> <a href=" #_servidor_base_de_datos"> Servidor Base de Datos </a></li>
+        <li class="list-group-item"> <a href=" #_gestor_base_de_datos"> Gestor Base de Datos </a></li>
+        <li class="list-group-item"> <a href=" #_clases_de_usuarios"> Clases de Usuarios </a></li>
+        <li class="list-group-item"> <a href=" #_esquema_de_base_de_datos"> Esquema de Base de Datos </a></li>
+        </ul>
+       </div>
+       <!--Esta son secciones y esto es un comentario-->
+        <section id="contenido" class="col">
+            Contenido
+            <article id="_dato">
+            <h5>Dato</h5>
+            <p> Son la representacion simbólica medinate números 
+                o letras de una recopilacion,
+                la cual puede ser cualitativa o cuantitativa.
+                Se usan para proveer informacion pero por si solos 
+                no tienen sentido.
+            </p>
+            </article>
+            <article id="_informacion">
+                <h5>Informacion</h5>
+                <p> Son un conjunto de datos entrelazados 
+                    mediante conectores linguisticos para formar 
+                    una idea o definicion.
+                </p>
+            </article>
+            <article id="_base_de_datos">
+            <h5>Base de Datos</h5>
+                <p> Es un conjunto de datos pertenecientes 
+                    a un mismo contexto y almacenados sistematicamente 
+                    para su posterior uso.
+                </p>
+            </article>
+            <article id="_servidor_base_de_datos">
+            <h5>Servidor Base de Datos</h5>
+                <p> Son los que se utiliza para los gestores de base de datos 
+                    y que varios usuarios hagan varias operaciones 
+                    sobre ellas al mismo tiempo, situados en lugares diferentes.
+                    Se puede acceder a ellas mediante terminales o equipos con 
+                    un programa llamado cliente.
+                </p>
+            </article>
+            <article id="_gestor_base_de_datos">
+            <h5>Gestor de Base de Datos</h5>
+                <p> Son un conjunto de programas que maneja todo
+                     acceso a la base de datos, con el objetivo de servir de
+                     interfaz entre ésta, el usuarioy las aplicaciones utilizadas.
+                </p>
+            </article>
+            <article id="_clases_de_usuarios">
+                <h5>Clases de Usuarios</h5>
+                <p> 
+                    <ul>
+                        <li> Usuarios Normales</li>
+                        <li> Programadores de Aplicaciones</li>
+                        <li> Usuarios Sofisticados</li>
+                        <li> Administradores de Base de Datos</li>
+                    </ul>
+                </p>
+            </article>
+            <article id="_esquema_de_base_de_datos">
+                <h5>Esquema de Base de Datos</h5>
+                <p> Representa la configuracion logica de todo a parte 
+                    de datos relacional. Puede existir de dos formas: como representacion
+                    visual y como un conjunto de formulas conocidas como restricciones de 
+                    integridad que controlan una base de datos. Estas formulas se expresan
+                    en un lenguaje de definicion de datos,tal como SQL (Structured Query Languaje).
+                </p>
+            </article>
+            <table class="table-bordered">
+                <thead>
+                <tr>
+                    <th> ID</th>
+                    <th> Nombre</th>
+                    <th> Edad </th>
+                </tr>
+                </thead>
+                <tbody>
+                        <tr>
+                            <td> 1 </td>
+                            <td> Rodolfo </td>
+                            <td> 27 </td>
+                        </tr>
+                        <tr>
+                            <td> 2 </td>
+                            <td> Juan </td>
+                            <td> 30 </td>
+                        </tr>
+                </tbody>
+                <p></p>
+            </table>
+        </section>
+   </div>
+</div>
+</body>
+</html>
